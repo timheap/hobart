@@ -43588,7 +43588,7 @@ module.exports = {
   title: "Hello World!",
   steps: [
     {
-      problem: "Welcome to JavaScript, you're gonna love it :)\n\nThis is a space for learning how Javascript works. On the right you have your worksheet on the top, and your worksheet's output on the bottom.\n\nThe first thing you should learn is how to print things. Printing things is the best way to debug your programs and learn what might be going on. In JavaScript you can use `console.log` to print *almost* anything.\n\nUsing the worksheet, copy or manually type the following code in to it:\n\n```javascript\nconsole.log(\"Hello World!\");\n```\n ",
+      problem: "Welcome to JavaScript, you're gonna love it :)\n\nThis is a space for learning how JavaScript works. On the right you have your worksheet on the top, and your worksheet's output on the bottom.\n\nThe first thing you should learn is how to print things. Printing things is the best way to debug your programs and learn what might be going on. In JavaScript you can use `console.log` to print *almost* anything.\n\nUsing the worksheet, copy or manually type the following code in to it:\n\n```javascript\nconsole.log(\"Hello World!\");\n```\n ",
       test: function(repl, cons) {
         return cons.some(function(cLine) {
           return cLine === "\"Hello World!\"";
